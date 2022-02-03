@@ -5,8 +5,6 @@ function array(value) {
     })
     const split = result[3].split(`,`)
     result.pop()
-    console.log(result, split);
-        console.log(result, split.join(``))
-    
+        console.log(result, split.join(' '))
 }
-array([`hallo`, `nama`, `saya`,[`Fahmi `, `Zainul `, `A `,[`kelas `,[`XI `,[`RPL `, 1]]]]])
+array(['hallo', 'nama ', 'saya',['Fahmi ', 'Zainul ', 'A ',['kelas ',['XI ',['RPL ', 1]]]]])
